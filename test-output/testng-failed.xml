@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="raulshettyacademy.SeleniumFramework.Listeners"/>
+  </listeners>
+  <test name="Errorvalidation(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="raulshettyacademy.SeleniumFramework.ErrorValidationstest">
+        <methods>
+          <include name="closewindow"/>
+          <include name="Launch"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- raulshettyacademy.SeleniumFramework.ErrorValidationstest -->
+      <class name="raulshettyacademy.SeleniumFramework.Submitordertest">
+        <methods>
+          <include name="closewindow"/>
+          <include name="Launch"/>
+        </methods>
+      </class> <!-- raulshettyacademy.SeleniumFramework.Submitordertest -->
+    </classes>
+  </test> <!-- Errorvalidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
